@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        .app {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: 560px;
+            left: 0;
+            margin: auto;
+        }
+
+        .app-title {
+            text-align: center;
+            font-size: 4.75rem;
+            margin: 1.75rem 0;
+        }
+
+        .app-title-footer {
+            text-align: center;
+        }
+
+        .app-subtitle {
+            font-size: larger;
+            line-height: 1.95rem;
+            margin: 1.75rem;
+        }
+
+        .app-footer {
+            text-align: center;
+            font-size: smaller;
+            color: gray;
+            margin: 1.75rem 0;
+        }
+
+        .app-footer a {
+            color: darkcyan;
+        }
+    </style>
+    <title>Vacinação</title>
+</head>
+
+<body class="app">
+    <main class="app">
+        <h1 class="app-title"">{{ age }} anos</h1>
+        <p class=" app-title-footer">(Idade mínima para agendamento da vacina)</p>
+            <h4 class=" app-subtitle">{{ text }} - <a href="https://www.sns.gov.pt/vacinacaocovid19/"
+                    rel="noopener noreferrer nofollow" target="_blank">https://www.sns.gov.pt/vacinacaocovid19/</a></h4>
+    </main>
+
+    <footer class="app-footer">Made with love by <a rel="noopener noreferrer nofollow"
+        target="_blank"
+            href="https://github.com/andrevarandas">André Varandas</a></footer>
+</body>
+
+</html>
