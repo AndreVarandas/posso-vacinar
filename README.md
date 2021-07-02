@@ -12,7 +12,7 @@ Python 3.9.4
 
 1. `pip install -r requirements.txt`
 2. `flask run`
-3. Accessar [http://localhost:5000](http://localhost:5000)
+3. Aceder a [http://localhost:5000](http://localhost:5000)
 
 ---
 
