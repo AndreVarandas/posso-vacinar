@@ -4,7 +4,7 @@ Uma maneira mais fácil de consultar a idade mínima para fazer o agendamento da
 
 Actualizado em tempo real.
 
-[https://posso-vacinar.azurewebsites.net/](https://posso-vacinar.azurewebsites.net/)
+[https://posso-vacinar.pt/](https://posso-vacinar.pt/)
 
 ### Setup local
 
