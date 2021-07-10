@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify
 from flask_caching import Cache
 from helpers import run
 
@@ -20,3 +20,10 @@ cache = Cache(app)
 def index():
     text, age = run()
     return render_template('index.html', age=age, text=text)
+
+
+@app.route("/api/v1/data")
+@cache.cached(timeout=50)
+def api():
+    text, age = run()
+    return jsonify(text=text, age=age)
