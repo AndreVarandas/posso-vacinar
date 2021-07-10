@@ -4,9 +4,13 @@ Uma maneira mais fácil de consultar a idade mínima para fazer o agendamento da
 
 Actualizado em tempo real.
 
+<<<<<<< HEAD
 [https://posso-vacinar.pt](https://posso-vacinar.pt)
 
 Api disponível em [https://posso-vacinar.pt/api/v1/data](https://posso-vacinar.pt/api/v1/data)
+=======
+[https://posso-vacinar.pt/](https://posso-vacinar.pt/)
+>>>>>>> 820508c4bf7f614fd9c02eae4e41fd9ebfd870de
 
 ### Setup local
 
